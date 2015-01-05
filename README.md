@@ -1,4 +1,4 @@
-### LinkedIn profile infos scrapper script in node.
+# LinkedIn profile infos scrapper script in node.
 ======================
 
 ## Requirements
@@ -23,14 +23,15 @@ npm install
 ```
 
 ## Using
-###  1. Set your linkedin user email and password in confg file.
-###  2. Use 'node' to run. Be sure to set env vaiables: EMAIL and PASSWORD for your linkedin account. 
+###  Use 'node' to run. 
+Be sure to set env vaiables: EMAIL and PASSWORD for your linkedin account. 
 As arguments it accepts list of links to linkedin profiles. Eg:
 ```
 EMAIL='your@email.com' PASSWORD='secret' node linkedinscript.js 'https://www.linkedin.com/in/treygriffith' 'https://www.linkedin.com/profile/view?id=14484635&authType=name&authToken=0-26&trk=prof-sb-browse_map-name'
 ```
 
-###  3. Get response as json from stout. Example:
+### Response
+Get response as json from stout. Example:
 ```
 {
    "name":"linkedin_logs",
